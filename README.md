@@ -22,7 +22,6 @@ With this Web Application, we aim to the host video and stream it with an easy-t
 ```
 $ npm install
 $ npm start
-
 ```
 
 ## License 📜
@@ -30,5 +29,5 @@ $ npm start
 
 ## Contributors ✨
 
-- [Kushagra Kesav](https://github.com/iamKushagra)
 - [Puja Kumari](https://github.com/Its-Puja-Singh)
+- [Kushagra Kesav](https://github.com/iamKushagra)
