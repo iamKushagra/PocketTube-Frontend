@@ -7,7 +7,7 @@
 
 ## Introduction 📌
 
-With this Web Application, we aim to the host video and stream it with an easy-to-use lucid yet intuitive interface. We are trying to make something similar to Youtube (Online Streaming Platform)
+With this Web Application, we aim to the host video and stream it with an easy-to-use lucid yet intuitive interface. We are trying to make something similar to Youtube (Online Video Streaming WebApp)
 
 ## Technology Stack 🏁
 
@@ -20,6 +20,7 @@ With this Web Application, we aim to the host video and stream it with an easy-t
 - Clone the Repository: `git clone https://github.com/iamKushagra/PocketTube.git`
 - `cd` into the Repository: `cd PocketTube`
 ```
+$ cd frontend
 $ npm install
 $ npm start
 ```
