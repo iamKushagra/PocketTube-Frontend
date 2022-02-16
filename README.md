@@ -12,8 +12,8 @@ With this Web Application, we aim to the host video and stream it with an easy-t
 ## Technology Stack 🏁
 
 - [React](https://reactjs.org/)
-- [Django](https://www.djangoproject.com/)
-- [YugabyteDB](https://www.yugabyte.com/)
+- [Nodejs](https://nodejs.dev/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## 👀 Build Instructions 
 
