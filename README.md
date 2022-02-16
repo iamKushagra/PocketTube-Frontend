@@ -17,16 +17,16 @@ With this Web Application, we aim to the host video and stream it with an easy-t
 
 ## 👀 Build Instructions 
 
-- Clone the Repository: `git clone https://github.com/iamKushagra/PocketTube.git`
-- `cd` into the Repository: `cd PocketTube`
+- Clone the Repository: `git clone https://github.com/iamKushagra/PocketTube-Frontend.git`
+- `cd` into the Repository: `cd PocketTube-Frontend`
+
 ```
-$ cd frontend
 $ npm install
-$ npm start
+$ npm run start
 ```
 
 ## License 📜
-[MIT](https://github.com/iamKushagra/PocketTube/blob/main/LICENSE)
+[MIT](https://github.com/iamKushagra/PocketTube-Frontend/blob/main/LICENSE)
 
 ## Contributors ✨
 
