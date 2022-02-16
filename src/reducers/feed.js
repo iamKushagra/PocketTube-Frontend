@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { client } from "../utils";
 
 export const getFeed = createAsyncThunk("feed/getFeed", async () => {
-  const { data } = await client(`${process.env.POCKET_TUBE_BE}/users/feed`);
+  const { data } = await client(`${process.env.POCKET_TUBE_BACKEND}/users/feed`);
   return data;
 });
 

@@ -25,7 +25,7 @@ const Player = ({ previewUrl }) => {
     }
 
     vjsPlayer.on("ended", () => {
-      client(`${process.env.POCKET_TUBE_BE}/videos/${videoId}/view`);
+      client(`${process.env.POCKET_TUBE_BACKEND}/videos/${videoId}/view`);
     });
 
     return () => {

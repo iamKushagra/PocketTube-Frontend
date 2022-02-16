@@ -5,11 +5,11 @@ export const getSearchResults = createAsyncThunk(
   "searchResult",
   async (searchTerm) => {
     const { data: users } = await client(
-      `${process.env.POCKET_TUBE_BE}/users/search?searchterm=${searchTerm}`
+      `${process.env.POCKET_TUBE_BACKEND}/users/search?searchterm=${searchTerm}`
     );
 
     const { data: videos } = await client(
-      `${process.env.POCKET_TUBE_BE}/videos/search?searchterm=${searchTerm}`
+      `${process.env.POCKET_TUBE_BACKEND}/videos/search?searchterm=${searchTerm}`
     );
 
     return { users, videos };

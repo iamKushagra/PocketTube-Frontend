@@ -5,7 +5,7 @@ export const getProfile = createAsyncThunk(
   "profile/getProfile",
   async (userId, thunk) => {
     const { data } = await client(
-      `${process.env.POCKET_TUBE_BE}/users/${userId}`
+      `${process.env.POCKET_TUBE_BACKEND}/users/${userId}`
     );
     return data;
   }

@@ -70,7 +70,7 @@ const Comments = () => {
       }
 
       const { data } = await client(
-        `${process.env.POCKET_TUBE_BE}/videos/${videoId}/comment`,
+        `${process.env.POCKET_TUBE_BACKEND}/videos/${videoId}/comment`,
         {
           body: { text: comment.value },
         }

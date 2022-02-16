@@ -149,7 +149,7 @@ const EditProfileModal = ({ closeModal }) => {
     dispatch(updateProfile(updates));
 
     dispatch(updateUser(updates));
-    client(`${process.env.POCKET_TUBE_BE}/users`, {
+    client(`${process.env.POCKET_TUBE_BACKEND}/users`, {
       body: updates,
       method: "PUT",
     });

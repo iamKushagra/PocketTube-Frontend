@@ -4,7 +4,7 @@ import { client } from "../utils";
 export const getRecommendation = createAsyncThunk(
   "recommendation/getRecommendation",
   async () => {
-    const { data } = await client(`${process.env.POCKET_TUBE_BE}/videos`);
+    const { data } = await client(`${process.env.POCKET_TUBE_BACKEND}/videos`);
     return data;
   }
 );

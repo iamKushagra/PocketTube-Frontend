@@ -149,7 +149,7 @@ const UploadVideoModal = ({ previewVideo, closeModal, url, thumbnail }) => {
       };
 
       const { data: video } = await client(
-        `${process.env.POCKET_TUBE_BE}/videos`,
+        `${process.env.POCKET_TUBE_BACKEND}/videos`,
         { body: newVideo }
       );
 

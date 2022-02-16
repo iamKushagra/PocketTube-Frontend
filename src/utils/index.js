@@ -101,7 +101,7 @@ export const upload = async (resourceType, file) => {
 };
 
 export const authenticate = async (type, data) => {
-  const backendUrl = process.env.POCKET_TUBE_BE;
+  const backendUrl = process.env.POCKET_TUBE_BACKEND;
 
   try {
     const { data: token } = await client(`${backendUrl}/auth/${type}`, {

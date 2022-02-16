@@ -3,7 +3,7 @@ import { client } from "../utils";
 
 export const getVideo = createAsyncThunk("video/getVideo", async (videoId) => {
   const { data: video } = await client(
-    `${process.env.POCKET_TUBE_BE}/videos/${videoId}`
+    `${process.env.POCKET_TUBE_BACKEND}/videos/${videoId}`
   );
   return video;
 });

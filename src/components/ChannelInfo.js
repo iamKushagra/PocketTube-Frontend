@@ -89,7 +89,7 @@ const ChannelInfo = ({ search, channel }) => {
 
     dispatch(addChannel(channel));
     addChannelLocalSt(channel);
-    client(`${process.env.POCKET_TUBE_BE}/users/${channel.id}/togglesubscribe`);
+    client(`${process.env.POCKET_TUBE_BACKEND}/users/${channel.id}/togglesubscribe`);
   };
 
   const handleUnsubscribe = (channelId) => {
@@ -101,7 +101,7 @@ const ChannelInfo = ({ search, channel }) => {
 
     dispatch(removeChannel(channelId));
     removeChannelLocalSt(channelId);
-    client(`${process.env.POCKET_TUBE_BE}/users/${channel.id}/togglesubscribe`);
+    client(`${process.env.POCKET_TUBE_BACKEND}/users/${channel.id}/togglesubscribe`);
   };
 
   return (

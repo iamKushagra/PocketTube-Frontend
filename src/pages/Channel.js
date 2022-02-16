@@ -121,14 +121,14 @@ const Channel = () => {
     dispatch(subscribeFromProfile());
     dispatch(addChannel(channel));
     addChannelLocalSt(channel);
-    client(`${process.env.POCKET_TUBE_BE}/users/${channel.id}/togglesubscribe`);
+    client(`${process.env.POCKET_TUBE_BACKEND}/users/${channel.id}/togglesubscribe`);
   };
 
   const handleUnsubscribe = (channelId) => {
     dispatch(unsubscribeFromProfile());
     dispatch(removeChannel(channelId));
     removeChannelLocalSt(channelId);
-    client(`${process.env.POCKET_TUBE_BE}/users/${channelId}/togglesubscribe`);
+    client(`${process.env.POCKET_TUBE_BACKEND}/users/${channelId}/togglesubscribe`);
   };
 
   useEffect(() => {

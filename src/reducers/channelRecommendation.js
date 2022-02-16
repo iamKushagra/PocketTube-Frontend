@@ -4,7 +4,7 @@ import { client } from "../utils";
 export const getChannels = createAsyncThunk(
   "channelRecommendation/getChannels",
   async () => {
-    const { data } = await client(`${process.env.POCKET_TUBE_BE}/users`);
+    const { data } = await client(`${process.env.POCKET_TUBE_BACKEND}/users`);
     return data;
   }
 );

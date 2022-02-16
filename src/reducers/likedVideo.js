@@ -5,7 +5,7 @@ export const getLikedVideos = createAsyncThunk(
   "likedVideo/getLikedVideos",
   async () => {
     const { data } = await client(
-      `${process.env.POCKET_TUBE_BE}/users/likedVideos`
+      `${process.env.POCKET_TUBE_BACKEND}/users/likedVideos`
     );
     return data;
   }

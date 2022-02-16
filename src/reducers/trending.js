@@ -4,7 +4,7 @@ import { client } from "../utils";
 export const getTrending = createAsyncThunk(
   "trending/getTrending",
   async () => {
-    const { data } = await client(`${process.env.POCKET_TUBE_BE}/videos`);
+    const { data } = await client(`${process.env.POCKET_TUBE_BACKEND}/videos`);
     data.sort((a, b) => b.views - a.views);
     return data;
   }
